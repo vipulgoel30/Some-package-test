@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    overflow-x: hidden;
+}
+
+.main {
+    position: relative;
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    padding: 1rem 2rem;
+}
+
+.main h1 {
+    font-size: 4.2rem;
+
+    font-weight: 400;
+    letter-spacing: .15rem;
+    word-spacing: .3rem;
+
+}
+
+.main::before {
+    content: '';
+    background-color: #3e3e3e;
+    position: absolute;
+    top: 40%;
+    height: 60%;
+    width: 100vw;
+    z-index: -2;
+}
+
+.lists-container {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.lists {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    background-color: #5dd8dd;
+
+    text-align: center;
+    padding: 1rem 2rem;
+    font-size: 1.7rem;
+}
+
+.lists-heading {
+    text-transform: uppercase;
+    font-size: 2.4rem;
+    font-weight: 500;
+    padding: 1.5rem;
+}
+
+.lists-container>.lists:first-child>div:not(:first-child) {
+    padding: 1.2rem;
+}
+
+.lists>div:not(:first-child) {
+    padding: .8rem;
+}
+
+.lists>div:not(:last-child) {
+    border-bottom: 1px solid #444;
+}
+
+
+
+
+
+[class^='lists-icon'] svg {
+    width: 2.4rem;
+    color: #fff;
+}
+
+.lists-icon-wrong svg {
+    color: #000;
+}

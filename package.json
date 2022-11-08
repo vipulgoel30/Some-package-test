@@ -1,0 +1,24 @@
+{
+  "name": "some-package-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vipulgoel30/Some-package-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vipulgoel30/Some-package-test/issues"
+  },
+  "homepage": "https://github.com/vipulgoel30/Some-package-test#readme",
+  "dependencies": {
+    "downloadjs": "^1.4.7",
+    "esbuild": "^0.15.13",
+    "html-to-image": "^1.10.8"
+  }
+}
